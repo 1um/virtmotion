@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+.privacy {
+  background-color: white;
+  color: black;
+  font-size: 1.8rem;
+}
+
+.privacy .main {
+  padding-top: 3rem;
+}
+.privacy .privacy-heading {
+  font-size: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+
+.privacy .privacy-desc {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+
+@media (min-height: 737px) {
+  .privacy {
+    display: flex;
+    flex-flow: column;
+  }
+  .privacy .main {
+    flex-grow: 1;
+  }
+}
