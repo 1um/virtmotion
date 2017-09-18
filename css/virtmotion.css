@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   .main {
     background-image: url('../images/virtmotionbg2.jpg');
     background-image: linear-gradient(to bottom, rgba(2,5,9,0), rgb(2,5,9)), url(../images/virtmotionbg2.jpg);
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(2, 5, 9, 0)), color-stop(100%, rgb(2,5,9))), url(../images/virtmotionbg2.jpg);
     background-size: cover;
     background-position: center;
   }
